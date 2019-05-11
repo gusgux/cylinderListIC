@@ -2,8 +2,8 @@
 WorldInfo {
 }
 Viewpoint {
-  orientation -0.9546150883020659 -0.2791165780657251 -0.10394214272815026 0.7047634055168758
-  position -0.15429121206885493 2.176586921690481 2.0123137034175667
+  orientation -0.9855088007349749 -0.16229689510593848 -0.04931654400790661 0.598170688090719
+  position 0.024491108438276732 1.5826430589753586 2.426306262955492
 }
 TexturedBackground {
 }
@@ -16,7 +16,7 @@ DEF A1_CYL1 Solid {
   children [
     Shape {
       appearance DEF A_1 PBRAppearance {
-        baseColor 0.8 0 0
+        baseColor 0.6431372549019608 0 0
       }
       geometry DEF G_CYL1 Cylinder {
         height 0.2
@@ -59,6 +59,7 @@ DEF CYL4_ Solid {
   translation 0.9 0.175 0
   children [
     Shape {
+      appearance USE A_1
       geometry DEF G_CYL4 Cylinder {
         height 0.35
         radius 0.05
@@ -66,4 +67,84 @@ DEF CYL4_ Solid {
     }
   ]
   name "solid(3)"
+}
+DEF c5 Solid {
+  translation 0.3 0.125 0
+  children [
+    Shape {
+      appearance USE A_1
+      geometry USE G_CYL2
+    }
+  ]
+  name "solid(4)"
+}
+DEF c6 Solid {
+  translation 0.6 0.15 -0.3
+  children [
+    Shape {
+      appearance USE A_2
+      geometry USE G_CYL3
+    }
+  ]
+  name "solid(5)"
+}
+DEF c7 Solid {
+  translation 0.9 0.175 -0.6
+  children [
+    Shape {
+      appearance USE A_3
+      geometry USE G_CYL4
+    }
+  ]
+  name "solid(6)"
+}
+DEF c8 Solid {
+  translation 0.6 0.15 0
+  children [
+    Shape {
+      appearance USE A_1
+      geometry USE G_CYL3
+    }
+  ]
+  name "solid(7)"
+}
+DEF c9 Solid {
+  translation 0.9 0.175 -0.3
+  children [
+    Shape {
+      appearance USE A_2
+      geometry USE G_CYL4
+    }
+  ]
+  name "solid(8)"
+}
+DEF c10 Solid {
+  translation 0 0.1 -0.6
+  children [
+    Shape {
+      appearance USE A_3
+      geometry USE G_CYL1
+    }
+  ]
+  name "solid(9)"
+}
+DEF c11 Solid {
+  translation 0 0.1 -0.3
+  children [
+    Shape {
+      appearance USE A_2
+      geometry USE G_CYL1
+    }
+  ]
+  name "solid(10)"
+}
+DEF c12 Solid {
+  translation 0.3 0.125 -0.6
+  children [
+    Shape {
+      appearance USE A_3
+      geometry USE G_CYL2
+    }
+  ]
+  name "solid(11)"
 }
