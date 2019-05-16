@@ -2,8 +2,8 @@
 WorldInfo {
 }
 Viewpoint {
-  orientation -0.9938873139956512 -0.10119441682913274 -0.044132721206849926 0.8270027945302004
-  position -0.08104679011338306 2.0227671443605013 2.079522962141291
+  orientation -0.29099620276965016 -0.9111205803013879 -0.29185698231309604 1.6666827624482659
+  position -1.7183146314539197 1.6081996637140648 -0.3526839428593812
 }
 TexturedBackground {
 }
@@ -26,7 +26,7 @@ DEF A1_CYL1 Solid {
   ]
 }
 DEF A2_CYL2 Solid {
-  translation 0.3 0.125 -0.3
+  translation 0.325 0.125 -0.35
   children [
     Shape {
       appearance DEF A_2 PBRAppearance {
@@ -41,7 +41,7 @@ DEF A2_CYL2 Solid {
   name "solid(1)"
 }
 DEF A3_CYL3 Solid {
-  translation 0.6 0.15 -0.6
+  translation 0.6 0.15 -0.7
   children [
     Shape {
       appearance DEF A_3 PBRAppearance {
@@ -56,7 +56,7 @@ DEF A3_CYL3 Solid {
   name "solid(2)"
 }
 DEF CYL4_ Solid {
-  translation 0.9 0.175 0
+  translation 0.82 0.175 0
   children [
     Shape {
       appearance USE A_1
@@ -69,7 +69,7 @@ DEF CYL4_ Solid {
   name "solid(3)"
 }
 DEF c5 Solid {
-  translation 0.3 0.125 0
+  translation 0.325 0.125 0
   children [
     Shape {
       appearance USE A_1
@@ -79,7 +79,7 @@ DEF c5 Solid {
   name "solid(4)"
 }
 DEF c6 Solid {
-  translation 0.6 0.15 -0.3
+  translation 0.6 0.15 -0.35
   children [
     Shape {
       appearance USE A_2
@@ -89,7 +89,7 @@ DEF c6 Solid {
   name "solid(5)"
 }
 DEF c7 Solid {
-  translation 0.9 0.175 -0.6
+  translation 0.82 0.175 -0.7
   children [
     Shape {
       appearance USE A_3
@@ -109,7 +109,7 @@ DEF c8 Solid {
   name "solid(7)"
 }
 DEF c9 Solid {
-  translation 0.9 0.175 -0.3
+  translation 0.82 0.175 -0.35
   children [
     Shape {
       appearance USE A_2
@@ -119,7 +119,7 @@ DEF c9 Solid {
   name "solid(8)"
 }
 DEF c10 Solid {
-  translation 0 0.1 -0.6
+  translation 0 0.1 -0.7
   children [
     Shape {
       appearance USE A_3
@@ -129,7 +129,7 @@ DEF c10 Solid {
   name "solid(9)"
 }
 DEF c11 Solid {
-  translation 0 0.1 -0.3
+  translation 0 0.1 -0.35
   children [
     Shape {
       appearance USE A_2
@@ -139,7 +139,7 @@ DEF c11 Solid {
   name "solid(10)"
 }
 DEF c12 Solid {
-  translation 0.3 0.125 -0.6
+  translation 0.325 0.125 -0.7
   children [
     Shape {
       appearance USE A_3
